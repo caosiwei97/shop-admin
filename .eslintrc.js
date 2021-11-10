@@ -12,5 +12,14 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
   rules: {
     'comma-dangle': 0,
+    'vue/script-indent': ['error', 2, { baseIndent: 1 }],
   },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        indent: 'off',
+      },
+    },
+  ],
 }
