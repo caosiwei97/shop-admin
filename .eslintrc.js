@@ -22,5 +22,13 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'vue/multi-word-component-names': 'off'
-  }
+  },
+  overrides: [
+    {
+      files: ['src/api/**/*.ts'],
+      rules: {
+        camelcase: 'off'
+      }
+    }
+  ]
 }
