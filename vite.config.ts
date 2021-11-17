@@ -17,6 +17,14 @@ export default defineConfig({
       }
     }
   },
+  server: {
+    proxy: {
+      '/admin': {
+        target: 'https://shop.fed.lagou.com/api',
+        changeOrigin: true
+      }
+    }
+  },
   plugins: [
     vue(),
     eslintPlugin({
