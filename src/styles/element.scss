@@ -23,3 +23,7 @@
   ),
 );
 @use "element-plus/theme-chalk/src/index.scss" as *;
+
+.el-aside {
+  width: auto;
+}

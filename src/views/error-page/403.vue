@@ -1,5 +1,5 @@
 <template>
-  <h1>首页123</h1>
+  <h1>403 未授权.</h1>
 </template>
 
 <script lang="ts" setup></script>

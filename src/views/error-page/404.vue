@@ -1,5 +1,5 @@
 <template>
-  <h1>首页123</h1>
+  <h1>404 Not Found.</h1>
 </template>
 
 <script lang="ts" setup></script>
