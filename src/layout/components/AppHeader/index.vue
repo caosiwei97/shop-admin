@@ -5,6 +5,7 @@
   </el-space>
   <el-space>
     <full-screen></full-screen>
+    <user-info></user-info>
   </el-space>
 </template>
 
@@ -12,6 +13,7 @@
   import BreadcrumbVue from './Breadcrumb.vue'
   import FullScreen from './FullScreen.vue'
   import ToggleSidebar from './ToggleSidebar.vue'
+  import UserInfo from './UserInfo.vue'
 </script>
 
 <style lang="scss" scoped>

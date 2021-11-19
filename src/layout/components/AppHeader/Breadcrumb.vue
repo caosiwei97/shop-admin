@@ -14,5 +14,4 @@
   const route = useRoute()
 
   const matchedRoutes = computed(() => route.matched.filter((route) => route.meta.title))
-  console.log(matchedRoutes.value)
 </script>
