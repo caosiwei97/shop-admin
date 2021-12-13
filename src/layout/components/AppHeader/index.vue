@@ -14,6 +14,14 @@
   import FullScreen from './FullScreen.vue'
   import ToggleSidebar from './ToggleSidebar.vue'
   import UserInfo from './UserInfo.vue'
+
+  const childMethod = () => {
+    console.log('child')
+  }
+
+  defineExpose({
+    childMethod
+  })
 </script>
 
 <style lang="scss" scoped>

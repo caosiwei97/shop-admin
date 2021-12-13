@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "cz": "git cz",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
     "serve": "vite preview",
     "lint-staged": "lint-staged",
     "lint": "eslint ./src/**/*.{js,jsx,vue,ts,tsx} --fix",

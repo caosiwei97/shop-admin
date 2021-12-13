@@ -6,7 +6,7 @@
       </el-aside>
       <el-container>
         <el-header id="header">
-          <app-header></app-header>
+          <app-header ref="header"></app-header>
         </el-header>
         <el-main>
           <router-view></router-view>
@@ -19,6 +19,13 @@
 <script setup lang="ts">
   import AppMenu from './components/AppMenu.vue'
   import AppHeader from './components/AppHeader/index.vue'
+  import { onMounted, ref } from 'vue-demi'
+
+  const header = ref(null)
+
+  onMounted(() => {
+    console.log(header.value)
+  })
 </script>
 
 <style>
