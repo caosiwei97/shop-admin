@@ -1,18 +1,10 @@
-interface Eg1 {
-  name: string
-  age: number
-}
-interface Eg2 {
-  color: string
-  age: string
+type ABC = { a: number; b: number; c: number }
+
+function sum({ a, b, c }: ABC) {
+  return a + b + c
 }
 
-type T1 = Eg1 & Eg2
+sum({ a: 1, b: 2, c: 3 })
 
-const a: T1 = {
-  name: '1',
-  age: (function a() {
-    throw Error()
-  })(),
-  color: ''
-}
+const args = [1, 2] as const
+const angle = Math.atan2(...args)

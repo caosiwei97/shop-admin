@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       vue(),
       eslintPlugin({
-        cache: true
+        cache: false
       })
     ],
     build: {

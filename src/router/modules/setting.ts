@@ -8,7 +8,7 @@ const permissionRoutes: RouteRecordRaw = {
   },
   children: [
     {
-      path: 'system_admin/index',
+      path: '/setting/permission/admin',
       name: 'system_admin-index',
       component: () => import('@/views/permission/admin/index.vue'),
       meta: {
