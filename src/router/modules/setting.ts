@@ -17,7 +17,7 @@ const permissionRoutes: RouteRecordRaw = {
       }
     },
     {
-      path: 'system_role/index',
+      path: '/setting/permission/role',
       name: 'system_role-index',
       component: () => import('@/views/permission/role/index.vue'),
       meta: {
@@ -25,7 +25,7 @@ const permissionRoutes: RouteRecordRaw = {
       }
     },
     {
-      path: 'system_menus/index',
+      path: '/setting/permission/rule',
       name: 'system_menus-index',
       component: () => import('@/views/permission/rule/index.vue'),
       meta: {
