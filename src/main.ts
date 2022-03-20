@@ -6,4 +6,6 @@ import { store, key } from './store'
 import './styles/index.scss'
 import AdminUI from './plugins/admin-ui'
 
+const a = 1
+
 createApp(App).use(store, key).use(router).use(element).use(AdminUI).mount('#app')
