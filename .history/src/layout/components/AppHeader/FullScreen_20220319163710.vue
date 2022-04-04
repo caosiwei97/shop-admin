@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FullScreen } from '@element-plus/icons-vue'
+  import { FullScreen } from '@element-plus/icons'
 
   const toggleFullScreen = () => {
     if (!document.fullscreenElement) {

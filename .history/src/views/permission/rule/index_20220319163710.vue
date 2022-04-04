@@ -80,7 +80,7 @@
 <script lang="ts" setup>
   import { IListParams, Menu } from '@/api/types/menu'
   import { onMounted, reactive, ref } from 'vue-demi'
-  import { Search, Plus } from '@element-plus/icons-vue'
+  import { Search, Plus } from '@element-plus/icons'
   import { deleteMenu, getMenus, updateMenuSatus } from '@/api/menu'
   import { ElMessage } from 'element-plus'
   import RuleForm from './RuleForm.vue'

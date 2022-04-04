@@ -18,7 +18,7 @@
   import { logout } from '@/api/common'
   import { useRouter } from 'vue-router'
   import { useStore } from '@/store'
-  import { ArrowDown } from '@element-plus/icons-vue'
+  import { ArrowDown } from '@element-plus/icons'
 
   const router = useRouter()
   const store = useStore()

@@ -91,7 +91,7 @@
     GoodsFilled,
     ShoppingCart,
     Promotion
-  } from '@element-plus/icons-vue'
+  } from '@element-plus/icons'
 </script>
 
 <style lang="scss" scoped>

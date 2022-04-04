@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { ArrowRight } from '@element-plus/icons-vue'
+  import { ArrowRight } from '@element-plus/icons'
   import { computed } from 'vue-demi'
   import { useRoute } from 'vue-router'
 

@@ -8,7 +8,7 @@
 <script lang="ts" setup>
   import { useStore } from '@/store'
   import { computed } from 'vue'
-  import { Fold, Expand } from '@element-plus/icons-vue'
+  import { Fold, Expand } from '@element-plus/icons'
 
   const store = useStore()
 
